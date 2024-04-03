@@ -64,5 +64,16 @@ number => number * 3;
 // const user1 = new User("Manuel", 35);
 // user1.greet();
 
-// console.log(user1);
-// user1.greet();
+const hobbies = ["Sports", "Cooking", "Reading"];
+console.log(hobbies[0]);
+hobbies.push("Working");
+console.log(hobbies);
+const index = hobbies.findIndex((item) => item === "Sports");
+console.log(index);
+const editedHobbies = hobbies.map((item) => ({ text: item }));
+console.log(editedHobbies);
+// const [firstName, lastName] = ["Max", "Schwarzmüller"];
+// const firstName = userNameData[0];
+// const lastName = userNameData[1];
+// console.log(firstName);
+// console.log(lastName);
