@@ -134,3 +134,14 @@ number => number * 3;
 // }
 // greeter(() => console.log("Hi"));
 
+
+//Scops
+// function init() {
+  //   function greet() {
+  //     console.log(“Hi!“);
+  //   }
+  
+  //   greet();
+  // }
+  
+  // init();
