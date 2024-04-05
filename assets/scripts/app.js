@@ -112,3 +112,25 @@ number => number * 3;
 // for (const hobby of hobbies) {
 //   console.log(hobby);
 // }
+
+
+//functions as values
+// function handleTimeout() { //normal function creation
+//   console.log("Timed out!");
+// }
+
+// const handleTimeout2 = () => { // arrow version
+//   console.log("Timed out ... again!");
+// };
+
+// setTimeout(handleTimeout, 2000); // in order to pass a function as a value we do not use () at the end
+// setTimeout(handleTimeout2, 3000);
+// setTimeout(() => {
+//   console.log("More timing out...");
+// }, 4000);
+
+// function greeter(greetFN){
+//   greetFN(); //when the () is added the function ll be executed 
+// }
+// greeter(() => console.log("Hi"));
+
